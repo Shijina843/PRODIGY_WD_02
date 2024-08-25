@@ -1,0 +1,113 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c3e50;
+  background-image: url('https://th.bing.com/th/id/OIG4.0842fh_kR97JFM9DSnv5?w=1024&h=1024&rs=1&pid=ImgDetMain'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  color: #ecf0f1; 
+  text-decoration: none;
+  padding: 20px;
+  font-size: 4rem; 
+}
+
+a {
+  color: #ecf0f1; 
+  text-decoration: none;
+  padding: 10px; 
+  font-size: 2 rem; 
+  text-align: justify;
+  display: inline-block;
+}
+
+a:hover {
+  color: #3498db; 
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); 
+}
+
+.container {
+  background-color: #34495e; 
+  width: 50%;
+  min-width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
+
+.timer-display {
+  position: relative;
+  width: 90%;
+  background: #ecf0f1;
+  left: 5%;
+  font-family: "Roboto Mono", monospace;
+  color: #2c3e50; 
+  font-size: 2rem;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.buttons {
+  width: 90%;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.buttons button {
+  width: 120px;
+  height: 45px;
+  background-color: #3498db; 
+  color: #fff;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem; 
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+  background-color: #e74c3c; 
+}
+
+.buttons button:nth-last-child(1) {
+  background-color: #2ecc71;
+}
+
+.buttons button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.lap-list {
+  color: white;
+  margin-right: 50px;
+  text-align: right;
+}
+
+.lap-label {
+  margin-right: 150px;
+  margin-bottom: 10px;
+}
